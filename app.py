@@ -17,9 +17,9 @@ model = None
 cache = None
 
 snapshot_download(
-    repo_id="bartowski/Mistral-Nemo-Instruct-2407-exl2",
+    repo_id="bartowski/Mistral-7B-Instruct-v0.3-exl2",
     revision="8_0",
-    local_dir = "./models/Mistral-Nemo-Instruct-2407-exl2"
+    local_dir = "./models/Mistral-7B-instruct-exl2"
 )
 snapshot_download(
     repo_id="turboderp/Llama-3-70B-Instruct-exl2",
@@ -125,7 +125,7 @@ def respond(
 ):
     global model
     global cache
-    model_path = "models/Mistral-Nemo-Instruct-2407-exl2/"
+    model_path = "models/Mistral-7B-instruct-exl2/"
     # Set up the model configuration
     config = ExLlamaV2Config(model_path)
     if model is None or cache is None:
