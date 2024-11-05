@@ -17,8 +17,8 @@ model = None
 cache = None
 
 snapshot_download(
-    repo_id="bartowski/Mistral-7B-Instruct-v0.3-exl2",
-    revision="8_0",
+    repo_id="LoneStriker/Mistral-Small-Instruct-2409-8.0bpw-h8-exl2",
+    revision="main",
     local_dir = "./models/Mistral-7B-instruct-exl2"
 )
 snapshot_download(
