@@ -8,7 +8,7 @@ on:
 
 env:
   PYTHON_VERSION: '3.12'
-  HF_USERNAME: 'pabloce/exllama'
+  HF_USERNAME: 'pabloce'
   SPACE_NAME: 'exllama'
 
 jobs:
