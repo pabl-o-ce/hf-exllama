@@ -276,4 +276,4 @@ demo = gr.ChatInterface(
 )
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(allowed_paths=["https://huggingface.co/spaces/pabloce/llama-cpp-agent/resolve/main/llama.jpg"])
