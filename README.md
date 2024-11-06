@@ -4,7 +4,7 @@ emoji: 😽
 colorFrom: purple
 colorTo: indigo
 sdk: gradio
-sdk_version: 5.4.0
+sdk_version: 5.5.0
 app_file: app.py
 pinned: false
 header: mini
@@ -43,7 +43,7 @@ Customize your chat experience with these adjustable parameters:
 
 ## 🛠️ Technical Details
 
-- **Framework**: Gradio 5.4.0
+- **Framework**: Gradio 5.5.0
 - **Models**: ExLlamaV2-compatible models
 - **UI**: Custom-themed interface with Gradio's Soft theme
 - **Optimization**: Flash Attention for improved performance
