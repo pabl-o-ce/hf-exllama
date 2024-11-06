@@ -185,7 +185,7 @@ def respond(
 PLACEHOLDER = """
 <div class="message-bubble-border" style="display:flex; max-width: 600px; border-radius: 6px; border-width: 1px; border-color: #e5e7eb; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); backdrop-filter: blur(10px);">
     <figure style="margin: 0;max-width: 200px;min-height: 300px;">
-        <img src="https://huggingface.co/spaces/pabloce/llama-cpp-agent/resolve/main/llama.jpg" alt="Logo" style="width: 100%; height: 100%; border-radius: 8px;">
+        <img src="/gradio_api/file=https://huggingface.co/spaces/pabloce/llama-cpp-agent/resolve/main/llama.jpg" alt="Logo" style="width: 100%; height: 100%; border-radius: 8px;">
     </figure>
     <div style="padding: .5rem 1.5rem; display: flex; flex-direction: column; justify-content: space-evenly;">
         <div>
