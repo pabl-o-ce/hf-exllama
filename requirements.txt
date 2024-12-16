@@ -1,4 +1,4 @@
-huggingface_hub==0.26.5
+huggingface_hub==0.27.0
 tokenizers
 numpy==2.2.0
 https://github.com/turboderp/exllamav2/releases/download/v0.2.6/exllamav2-0.2.6+cu121.torch2.3.1-cp310-cp310-linux_x86_64.whl
