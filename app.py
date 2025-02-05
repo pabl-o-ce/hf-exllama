@@ -22,7 +22,7 @@ snapshot_download(
     local_dir = "./models/Mistral-7B-instruct-exl2"
 )
 snapshot_download(
-    repo_id="DeusImperator/Mistral-Small-24B-Instruct-2501_exl2_6.5bpw_L",
+    repo_id="MikeRoz/mistralai_Mistral-Small-24B-Instruct-2501-6.0bpw-h6-exl2",
     local_dir = "./models/Mistral-Small-24B-Instruct-exl2"
 )
 
