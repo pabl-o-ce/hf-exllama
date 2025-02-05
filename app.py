@@ -22,9 +22,8 @@ snapshot_download(
     local_dir = "./models/Mistral-7B-instruct-exl2"
 )
 snapshot_download(
-    repo_id="turboderp/Llama-3-70B-Instruct-exl2",
-    revision="4.0bpw",
-    local_dir = "./models/Llama-3-70B-Instruct-exl2"
+    repo_id="DeusImperator/Mistral-Small-24B-Instruct-2501_exl2_6.5bpw_L",
+    local_dir = "./models/Mistral-Small-24B-Instruct-exl2"
 )
 
 css = """
