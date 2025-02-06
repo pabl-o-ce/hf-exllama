@@ -18,7 +18,7 @@ cache = None
 
 snapshot_download(
     repo_id="turboderp/Mistral-Nemo-Instruct-12B-exl2",
-    revision="8_0bpw",
+    revision="8.0bpw",
     local_dir = "./models/Mistral-Nemo-Instruct-12B-exl2"
 )
 snapshot_download(
