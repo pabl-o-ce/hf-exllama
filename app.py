@@ -17,15 +17,20 @@ model = None
 cache = None
 
 snapshot_download(
+    repo_id="bartowski/Mistral-7B-Instruct-v0.3-exl2",
+    revision="8_0",
+    local_dir = "./models/Mistral-7B-instruct-exl2"
+)
+snapshot_download(
     repo_id="turboderp/Mistral-Nemo-Instruct-12B-exl2",
     revision="8.0bpw",
     local_dir = "./models/Mistral-Nemo-Instruct-12B-exl2"
 )
-snapshot_download(
-    repo_id="MikeRoz/mistralai_Mistral-Small-24B-Instruct-2501-6.0bpw-h6-exl2",
-    revision="main",
-    local_dir = "./models/Mistral-Small-24B-Instruct-exl2"
-)
+# snapshot_download(
+#     repo_id="MikeRoz/mistralai_Mistral-Small-24B-Instruct-2501-6.0bpw-h6-exl2",
+#     revision="main",
+#     local_dir = "./models/Mistral-Small-24B-Instruct-exl2"
+# )
 
 css = """
 .bubble-wrap {
@@ -125,7 +130,7 @@ def respond(
 ):
     global model
     global cache
-    model_path = "models/Mistral-Nemo-Instruct-12B-exl2/"
+    model_path = "models/Mistral-7B-instruct-exl2/"
     # Set up the model configuration
     config = ExLlamaV2Config(model_path)
     if model is None or cache is None:
