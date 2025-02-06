@@ -23,7 +23,7 @@ snapshot_download(
 )
 snapshot_download(
     repo_id="turboderp/Mistral-Nemo-Instruct-12B-exl2",
-    revision="4.0bpw",
+    revision="3.0bpw",
     local_dir = "./models/Mistral-Nemo-Instruct-12B-exl2"
 )
 # snapshot_download(
