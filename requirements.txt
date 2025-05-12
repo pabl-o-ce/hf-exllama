@@ -1,6 +1,6 @@
 huggingface_hub==0.31.1
 tokenizers
 numpy==2.2.5
-https://github.com/turboderp-org/exllamav2/releases/download/v0.3.0/exllamav2-0.3.0+cu128.torch2.7.0-cp310-cp310-linux_x86_64.whl
-https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.4cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+https://github.com/turboderp-org/exllamav2/releases/download/v0.3.0/exllamav2-0.3.0+cu124.torch2.6.0-cp310-cp310-linux_x86_64.whl
+https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
 jinja2
